@@ -1,4 +1,4 @@
-# Car-Selling-Website
+# Car-Sales-Website
 MinAuto - Premium Car Sales Website Project
 This project is a comprehensive car sales website application developed using HTML, CSS, and JavaScript. The website features a modern, responsive design that adapts seamlessly to all screen sizes, from mobile devices to desktop computers.
 Technical Details:
