@@ -123,3 +123,6 @@ Verimli CSS organizasyonu
 Temiz ve sürdürülebilir JavaScript kodu
 Farklı tarayıcı uyumluluğu
 Mobil öncelikli yaklaşım
+
+<img width="1440" height="678" alt="carcell" src="https://github.com/user-attachments/assets/b1d9c4af-58c0-4f58-8896-d13d2f9d1a9d" />
+
