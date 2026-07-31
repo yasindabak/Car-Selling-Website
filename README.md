@@ -1,128 +1,82 @@
-# Car-Sales-Website
-MinAuto - Premium Car Sales Website Project
-This project is a comprehensive car sales website application developed using HTML, CSS, and JavaScript. The website features a modern, responsive design that adapts seamlessly to all screen sizes, from mobile devices to desktop computers.
-Technical Details:
+# Car Selling Website
 
-Frontend Technologies:
+Bu depo, kullanıcı dostu ve modern bir "Car Selling" (araba satışı) web sitesi şablonu içerir. Proje statik HTML, CSS ve JavaScript ile hazırlanmış olup, küçük işletmeler veya kişisel portföyler için hızlıca uyarlanabilecek temiz ve duyarlı bir ön yüz sunar.
 
-HTML5 for structural development
-CSS3 for styling and animations
-Vanilla JavaScript for dynamic functionalities
-Bootstrap 5.3.2 framework for responsive design
-Font Awesome 6.0.0 for icons
+## Özet
 
+- Basit araç listeleme ve detay gösterimi
+- Marka / model / yıl / fiyat gibi filtreleme ve arama özellikleri
+- Duyarlı (responsive) tasarım: mobil ve masaüstünde iyi görünür
+- Görsel odaklı kart düzeni, galeri ve etkileşimli öğeler
 
-Key Features:
+Repo dil dağılımı (tahmini):
+- HTML: %55
+- JavaScript: %30.6
+- CSS: %14.4
 
-Responsive navigation bar with smooth scrolling
-Dynamic car filtering system by brand, model, and year
-Interactive car cards with hover effects
-Contact form for customer inquiries
-Statistics counter section
-Image gallery with car displays
-Social media integration
+## Teknolojiler
 
+- HTML5
+- CSS3 (veya tercih edilirse SCSS)
+- Vanilla JavaScript
+- Bootstrap (opsiyonel olarak projede kullanıldıysa)
+- Font Awesome (ikonlar için)
 
-Website Sections:
+## Özellikler
 
-Hero section with call-to-action buttons
-Features showcase
-Car listing with filter options
-About us section
-Contact section
-Footer with quick links
+- Anasayfa: Öne çıkan araçlar ve filtreleme
+- Araç listesi: Kartlar halinde araç gösterimi
+- Araç detayı: Görseller, açıklama, teknik bilgiler
+- İletişim formu: Ziyaretçilerin satıcıyla iletişime geçmesi için
+- Basit arama ve filtreleme: Marka, fiyat aralığı ve modele göre
+- Performans odaklı: Görsel optimizasyonu ve hızlı yükleme
 
+## Kurulum ve çalıştırma
 
-User Interface Elements:
+1. Depoyu klonlayın:
 
-Custom animations and transitions
-Interactive buttons and hover effects
-Shadow effects for depth
-Responsive image handling
-Mobile-friendly menu
+   git clone https://github.com/yasindabak/Car-Selling-Website.git
 
+2. Proje dizinine gidin:
 
-Functionality:
+   cd Car-Selling-Website
 
-Dynamic car data management
-Real-time filtering system
-Smooth scroll navigation
-Form validation
-Responsive image scaling
-Interactive elements
+3. Statik site olduğu için doğrudan `index.html` dosyasını tarayıcıda açabilirsiniz. Geliştirme için tercih edilen yöntemler:
 
+   - Python 3 ile basit sunucu:
 
-Performance Optimizations:
+     python -m http.server 8000
+     # ardından tarayıcıda http://localhost:8000 adresini açın
 
-Optimized image loading
-Efficient CSS organization
-Clean and maintainable JavaScript code
-Cross-browser compatibility
-Mobile-first approach
+   - VS Code kullanıyorsanız "Live Server" eklentisi ile anında önizleme alabilirsiniz.
 
+## Özelleştirme
 
+- Veri kaynağı: Mevcut düz (hardcoded) araç verilerini JSON dosyasına veya bir API'ye bağlayarak dinamik hale getirebilirsiniz.
+- Backend entegrasyonu: İlan ekleme, kullanıcı yönetimi, favoriler ve mesajlaşma için basit bir backend (Node.js, Django vb.) ekleyin.
+- Stil ve tema: CSS/SCSS değişiklikleriyle marka renklerinizi ve tipografinizi uygulayın.
+- Performans: Görselleri WebP formatına çevirme ve lazy-loading uygulama.
 
-TÜRKÇE
-MinAuto - Premium Araba Satış Sitesi Projesi
-Bu proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiş kapsamlı bir araba satış sitesi uygulamasıdır. Website, mobil cihazlardan masaüstü bilgisayarlara kadar tüm ekran boyutlarına sorunsuz uyum sağlayan modern ve responsive bir tasarıma sahiptir.
-Teknik Detaylar:
+## Katkıda bulunma
 
-Frontend Teknolojileri:
+Katkılar memnuniyetle karşılanır. Herhangi bir hata düzeltmesi, iyileştirme veya yeni özellik için aşağıdaki adımları izleyin:
 
-Yapısal geliştirme için HTML5
-Stillendirme ve animasyonlar için CSS3
-Dinamik işlevler için saf JavaScript
-Responsive tasarım için Bootstrap 5.3.2 framework'ü
-İkonlar için Font Awesome 6.0.0
+1. Projeyi fork'layın
+2. Yeni bir branch oluşturun: `git checkout -b feature/isim`
+3. Değişikliklerinizi commit edin: `git commit -m "Açıklama"`
+4. Branch'i push'layın ve pull request açın
 
+Lütfen açık ve açıklayıcı commit mesajları kullanın ve büyük değişiklikler için bir issue açıp taslak paylaşın.
 
-Temel Özellikler:
+## Lisans
 
-Yumuşak kaydırmalı responsive navigasyon çubuğu
-Marka, model ve yıla göre dinamik araç filtreleme sistemi
-Hover efektli interaktif araç kartları
-Müşteri talepleri için iletişim formu
-İstatistik sayaç bölümü
-Araç görselleri galerisi
-Sosyal medya entegrasyonu
+Bu projeye uygun bir lisans ekleyin (ör. MIT). Lisans yoksa, kullanım koşullarını ve katkı politikasını belirtin.
 
+## İletişim
 
-Website Bölümleri:
+- GitHub: https://github.com/yasindabak
+- Twitter / E-posta: (isteğe bağlı olarak ekleyin)
 
-Çağrı butonlu hero bölümü
-Özellik vitrini
-Filtreleme seçenekli araç listesi
-Hakkımızda bölümü
-İletişim bölümü
-Hızlı linkli footer
+---
 
-
-Kullanıcı Arayüzü Elemanları:
-
-Özel animasyonlar ve geçişler
-İnteraktif butonlar ve hover efektleri
-Derinlik için gölge efektleri
-Responsive görsel yönetimi
-Mobil uyumlu menü
-
-
-İşlevsellik:
-
-Dinamik araç veri yönetimi
-Gerçek zamanlı filtreleme sistemi
-Yumuşak kaydırmalı navigasyon
-Form doğrulama
-Responsive görsel ölçeklendirme
-İnteraktif elementler
-
-
-Performans Optimizasyonları:
-
-Optimize edilmiş görsel yükleme
-Verimli CSS organizasyonu
-Temiz ve sürdürülebilir JavaScript kodu
-Farklı tarayıcı uyumluluğu
-Mobil öncelikli yaklaşım
-
-<img width="1440" height="678" alt="carcell" src="https://github.com/user-attachments/assets/b1d9c4af-58c0-4f58-8896-d13d2f9d1a9d" />
-
+Teşekkürler! README'de görmek istediğiniz ek bölümler (ör. canlı demo linki, ekran görüntüleri, API dökümantasyonu) varsa belirtin; ben ekleyeyim.
