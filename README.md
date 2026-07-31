@@ -9,10 +9,6 @@ Bu depo, kullanıcı dostu ve modern bir "Car Selling" (araba satışı) web sit
 - Duyarlı (responsive) tasarım: mobil ve masaüstünde iyi görünür
 - Görsel odaklı kart düzeni, galeri ve etkileşimli öğeler
 
-Repo dil dağılımı (tahmini):
-- HTML: %55
-- JavaScript: %30.6
-- CSS: %14.4
 
 ## Teknolojiler
 
@@ -68,15 +64,5 @@ Katkılar memnuniyetle karşılanır. Herhangi bir hata düzeltmesi, iyileştirm
 
 Lütfen açık ve açıklayıcı commit mesajları kullanın ve büyük değişiklikler için bir issue açıp taslak paylaşın.
 
-## Lisans
 
-Bu projeye uygun bir lisans ekleyin (ör. MIT). Lisans yoksa, kullanım koşullarını ve katkı politikasını belirtin.
 
-## İletişim
-
-- GitHub: https://github.com/yasindabak
-- Twitter / E-posta: (isteğe bağlı olarak ekleyin)
-
----
-
-Teşekkürler! README'de görmek istediğiniz ek bölümler (ör. canlı demo linki, ekran görüntüleri, API dökümantasyonu) varsa belirtin; ben ekleyeyim.
